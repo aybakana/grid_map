@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+	<node pkg="grid_map_demos_itu" type="pointcloud_to_gridmap_node" name="pointcloud_to_gridmap_node" output="screen">
+		<!--<remap from="/velodyne_points" to="drone/velodyne_points" /> -->
+
+	</node>
+
+  <node pkg="rviz" type="rviz" name="rviz"/>
+	
+
+ 
+  
+</launch>
